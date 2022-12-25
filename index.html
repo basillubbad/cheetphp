@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <p>
+        <?php
+
+جملة طباعة
+echo "hello";
+
+
+مجموع رقمين
+function exa(){
+    $a=20;
+    $s=5;
+    return $a+$s;
+}
+echo exa();
+
+
+طباعة الاحرف صغيرة
+
+function omo(){
+    $string = 'HELLO';
+    return strtolower($string);
+
+}
+echo omo();
+
+
+طباعة الاحرف كبيرة
+
+function omo(){
+    $string = 'heloo';
+    return strtoupper($string);
+
+}
+echo omo();
+
+
+
+جمع متغييرين وضربهم بثالث
+
+function ex($a,$b,$s){
+    return ($a+$b)*$s;
+
+}
+echo ex(2.3.4);
+
+مساحة المثلث
+
+function ex3($a,$d){
+    return 0.5*$a*$d;
+}
+echo (2,3);
+
+
+مساحة المريع
+
+function ex3($a,$d){
+    return $a*$d;
+}
+echo (2,3);
+
+جمع رقمين مع استخدام قيمة افتراضية
+
+function exa($a=10,$s=5)(
+    return $a+$s;
+
+)
+echo exa();
+
+
+باقي القسمة
+
+function esa($f,$g){
+    return $f%$g;
+}
+echo esa(11,10);
+
+//////////////////////////////////////////////////////////////////
+أمثلة السؤال الثاني/////////////
+
+
+طباعة تقديرالعلامة
+
+function getNum($a){
+    if($a>=90){
+        return 'ممتاز';
+
+    }
+    elseif($a>=80){
+        return 'جيد جدا';
+    }
+    elseif($a>=70){
+        return 'جيد';
+    }
+    elseif($a>=60){
+        return 'مقبول';
+    }
+    else($a<50){
+        return 'راسب';
+    }
+}
+
+طباعة مصفوفة
+$myArr = array(10 ,12.6 , "username");
+echo array();
+
+
+
+
+تقطيع النص وتحويله الى مصفوفة
+
+$string = 'this is a string';
+$arry = explode(' ',$string);
+print_r($arry);
+
+
+
+
+
+
+البحث داخل مصفوفة
+
+$array = array ('sy', 'eg', 'lb' ,'sa');
+if (in_arrat('sa', $array)==true){
+    echo 'sa is found in $array array <br>';
+
+}
+if (in_arrat('fr', $array)==false){
+    echo 'fr in not found in $array array <br>';
+}
+
+قلب مصفوفة 
+
+$array = array(1 ,2 , 3 , 4);
+$new_array = array_reverse($array);
+print_r($new_array);
+
+
+ازالة التكرار من المصفوفة
+
+
+$array = array ('sy' ,'lb', 'sy', 'lb');
+$new_array = array_unique($array);
+echo ' the first array is :';
+print_r($array);
+echo '<br> the "unique" one :';
+print_r($new_array);
+
+
+ترتيب المصفوفة
+
+$array = array (123,1,12,'name'=>'sy','eg');
+print_r($array);
+asort($array);
+echo '<br>';
+print_r($array);
+
+
+
+
+    </p>
+</body>
+</html>
